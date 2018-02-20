@@ -230,7 +230,7 @@ endif
 DONT_DEXPREOPT_PREBUILTS := true
 
 # Extended filesystem support
-TARGET_KERNEL_HAVE_EXFAT := true
+TARGET_EXFAT_DRIVER := exfat
 
 # Use Snapdragon LLVM Compiler
 TARGET_USE_SDCLANG := true
