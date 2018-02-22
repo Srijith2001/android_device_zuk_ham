@@ -229,6 +229,9 @@ ifeq ($(HOST_OS),linux)
 endif
 DONT_DEXPREOPT_PREBUILTS := true
 
+# Extended filesystem support
+TARGET_KERNEL_HAVE_EXFAT := true
+
 # Use Snapdragon LLVM Compiler
 TARGET_USE_SDCLANG := true
 
